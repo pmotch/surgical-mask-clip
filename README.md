@@ -1,14 +1,14 @@
 # surgical-mask-clip
-A 3D printable clip to improve the comfort of wearing a surgical mask for a long time
+A 3D printable clip to improve the comfort of wearing a surgical mask for a long time.
 
 # Why
 The COVID-19 stuff caused a shortage of [surgical masks (face masks)](https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks) ([archive.org link](https://web.archive.org/web/20200325214258/https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks)) and hospitals are having a hard time replenishing their supplies. Our [local hospital said they're running low on masks](https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/) ([archive.org link](https://web.archive.org/web/20200326225658/https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/)) and asked the community to [make some](https://www.deaconess.com/How-to-make-a-Face-Mask) ([archive.org link](https://web.archive.org/web/20200327003117/https://www.deaconess.com/How-to-make-a-Face-Mask)). My wife sews, so [she made a bunch](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/sewn_masks.jpg).
 
-I also saw pictures on reddit showing what happens when you wear a surgical mask for a long time -- it's not good. I wondered if I could 3D print a clip that might bring some relief to make them more comfortable behind the ears, so I did.
+Then I saw pictures on reddit showing what happens when someone wears a surgical mask for a long time -- it's not good. I wondered if I could create a clip that might make them more comfortable behind the ears, so I did.
 
-I 3D printed a few different sized prototypes and she included them with the delivery of the masks to the hospital. The person who accepted the donation liked the idea, took it to the hospital executive committee, and they said they wanted 200 more of the largest prototype I had.
+I 3D printed a few different sized prototypes and she included them when she delivered the masks to the hospital. The person who accepted the donation liked the idea, took it to the hospital executive committee, and they said they wanted 200 more of the largest prototype I had.
 
-This project is that sucessful prototype.
+This project is that successful prototype.
 
 # Files
 
@@ -30,19 +30,21 @@ The PrusaSlicer file for printing one clip.
 
 ## `surgical_mask_clip-single_0.2mm_PLA_MK3S_29m.gcode`
 
-G-code file ready to put on a SD card and print a single clip to your Prusa i3 MK3S.
+G-code file ready to put on an SD card and print a single clip to your Prusa i3 MK3S.
 
 ## `surgical_mask_clip-multiple.3mf`
 
-The PrusaSlicer file for printing as many clips as one can reasonable fit on the build plate and still be able to safely remove them. 18 in this case.
+The PrusaSlicer file for printing as many clips as one can reasonably fit on the build plate and still be able to safely remove them. 18 in this case.
+
+![surgical_mask_clip-multiple.3mf](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/sugical_mask_clip-multiple_g-code_screenshot.png)
 
 ## `sugical_mask_clip-multiple_0.2mm_PLA_MK3S_8h42m.gcode`
 
-G-code file ready to put on a SD card and print 18 clips to your Prusa i3 MK3S.
+G-code file ready to put on an SD card and print 18 clips to your Prusa i3 MK3S.
 
 ## `default_scene.blend`
 
-A handy blank build plate object in Blender in case you want to start from scratch with your own modeling in Blender.
+A handy blank build plate object in Blender in case you want to start from scratch with your own modeling.
 
 # Design stuff
 
@@ -54,7 +56,7 @@ Here's a list that I thought about for the design:
 - Thickness allows enough surface area over the skin to be comfortable, yet not use too much filament.
 - More infill makes it more rigid. 100% infill is best I found.
 - Easy to wash
-- [Minwoo Choi](https://www.prusaprinters.org/social/52530-minwoo-choi)'s design [on PrusaPrinter](https://www.prusaprinters.org/prints/25999-mask-connection-clips) was a validating design and has some evidense of adoption (nice work!), but after comparing this design the edges weren't beveled, the sizes were too small, and the hooks were a little too narrow for a user to easily slip in the elastic bands to them.
+- [Minwoo Choi](https://www.prusaprinters.org/social/52530-minwoo-choi)'s design [on PrusaPrinter](https://www.prusaprinters.org/prints/25999-mask-connection-clips) was a validating design and has some evidence of adoption (nice work!), but after comparing this design the edges weren't beveled, the sizes were too small, and the hooks were a little too narrow for a user to easily slip in the elastic bands to them.
 
 # Blender settings
 
@@ -62,7 +64,7 @@ Useful Blender settings I used:
 
 - See various articles on how to get Blender prepared for 3D Print modeling. It's not by default, so you'll want to do that.
 - The model is in millimeters.
-- The "Floor" included in the model is of the dimentions of the Prusa i3 MK3 build plate
+- The "Floor" included in the model is of the dimensions of the Prusa i3 MK3 build plate
 - Enable in addons "Mesh: 3D-Print Toolbox". It's used to export the STL and check for 3D printing modeling problems.
 
 # Printer and slicer settings
@@ -80,11 +82,11 @@ Note: other settings can be seen if you open the `.3ds` files in PrusaSlicer.
 
 ## Is this limited to just the Prusa i3 MK3S 3D printer?
 
-This project uses this printer, but I bet people can figure out how to use it on other printers. For sure the Blender and STL files arn't constrained to just this printer. The `Floor` object in the Blender file is the dimensions of the Prusa i3 MK3S, but that isn't important if you're just exporting the clip to an STL - it's just useful when modeling on this specific printer. The gcode file is specific to the Prusa i3 MK3S, but you can
+This project focuses this printer, but I bet people can figure out how to use it on other printers. For sure the Blender and STL files aren't constrained to just this printer. The `Floor` object in the Blender file is the dimensions of the Prusa i3 MK3S, but that isn't important if you're just exporting the `Clip` to an STL - it's just useful when modeling on this specific printer. The G-code files are specific to the Prusa i3 MK3S, but you can take the `.3ds` files and generate your own G-code exports.
 
 ## Why use git and GitHub to store these project files?
 
-Git and GitHub is something I know and I read a little bit about people using git for version controlling 3D stuff. It's a nice tool to document this stuff and host the files too. Works good enough. You can also find this project on PrusaPrinters print hosting site: TODO
+Git / GitHub is something I know, and I noticed some people using git for version controlling 3D stuff. It's also a nice using GitHub to host the documentation and file. Works good enough. You can also find this project on PrusaPrinters print hosting site: TODO
 
 ## Why choose Creative Commons Attribution 4.0 International as the license
 
