@@ -57,8 +57,8 @@ Here's a list that I thought about for the design:
 - Arc of the bend holds around the neck, but isn't a perfect fit allowing some tension.
 - Thickness allows enough surface area over the skin to be comfortable, yet not use too much filament.
 - More infill makes it more rigid. 100% infill is best I found.
-- Easy to wash
-- [Minwoo Choi](https://www.prusaprinters.org/social/52530-minwoo-choi)'s design [on PrusaPrinter](https://www.prusaprinters.org/prints/25999-mask-connection-clips) was a validating design and has some evidence of adoption (nice work!), but after comparing this design the edges weren't beveled, the sizes were too small, and the hooks were a little too narrow for a user to easily slip in the elastic bands to them.
+- Easy to wash.
+- [Minwoo Choi](https://www.prusaprinters.org/social/52530-minwoo-choi)'s design [on PrusaPrinter](https://www.prusaprinters.org/prints/25999-mask-connection-clips) was a validating design and has some evidence of adoption (very nice!), but after comparing this design, the edges needed beveling, the sizes were too small, and the hooks were a little too narrow for users to easily slip in the elastic bands.
 
 # Blender settings
 
@@ -120,7 +120,7 @@ Several reasons:
 
 ## Your 3D models aren't precise. Why?
 
-I agree. I haven't learned all the tricks in Blender to make alignment of things perfect, but the tolerances when you 3D print them aren't perceptable nor do they jeopardize the structural intgrity it seems. I do like precision though, so if you can make it better, I welcome pull requests!
+I agree. I haven't learned all the tricks in Blender to make alignment of things perfect, but the tolerances when you 3D print them aren't perceptible nor do they jeopardize the structural integrity it seems. I do like precision though, so if you can make it better, I welcome pull requests!
 
 ## Is it sanitizable?
 
