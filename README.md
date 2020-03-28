@@ -1,6 +1,8 @@
 # surgical-mask-clip
 A 3D printable clip to improve the comfort of wearing a surgical mask for a long time.
 
+![](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/surgical-mask-clip-single-300px.jpg)![](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/surgical-mask-clip-video-original.gif)![](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/surgical-mask-clip-printing-300px.jpg)
+
 # Why
 The COVID-19 stuff caused a shortage of [surgical masks (face masks)](https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks) ([archive.org link](https://web.archive.org/web/20200325214258/https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks)) and hospitals are having a hard time replenishing their supplies. Our [local hospital said they're running low on masks](https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/) ([archive.org link](https://web.archive.org/web/20200326225658/https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/)) and asked the community to [make some](https://www.deaconess.com/How-to-make-a-Face-Mask) ([archive.org link](https://web.archive.org/web/20200327003117/https://www.deaconess.com/How-to-make-a-Face-Mask)). My wife sews, so [she made a bunch](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/sewn_masks.jpg).
 
