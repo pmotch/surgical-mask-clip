@@ -4,11 +4,11 @@ A 3D printable clip to improve the comfort of wearing a surgical mask for a long
 ![](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/surgical-mask-clip-single-300px.jpg)![](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/surgical-mask-clip-video-original.gif)![](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/surgical-mask-clip-printing-300px.jpg)
 
 # Why
-The COVID-19 stuff caused a shortage of [surgical masks (face masks)](https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks) ([archive.org link](https://web.archive.org/web/20200325214258/https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks)) and hospitals are having a hard time replenishing their supplies. Our [local hospital said they're running low on masks](https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/) ([archive.org link](https://web.archive.org/web/20200326225658/https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/)) and asked the community to [make some](https://www.deaconess.com/How-to-make-a-Face-Mask) ([archive.org link](https://web.archive.org/web/20200327003117/https://www.deaconess.com/How-to-make-a-Face-Mask)). My wife sews, so [she made a bunch](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/sewn_masks.jpg).
+COVID-19 caused a shortage of [surgical masks (face masks)](https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks) ([archive.org link](https://web.archive.org/web/20200325214258/https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-and-surgical-masks-face-masks)) and hospitals are having a hard time replenishing their supplies. Our [local hospital said they're running low on masks](https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/) ([archive.org link](https://web.archive.org/web/20200326225658/https://www.courierpress.com/story/news/2020/03/18/coronavirus-deaconess-ask-public-provide-medical-face-masks/2865273001/)) and asked the community to [make some](https://www.deaconess.com/How-to-make-a-Face-Mask) ([archive.org link](https://web.archive.org/web/20200327003117/https://www.deaconess.com/How-to-make-a-Face-Mask)). My wife sews, so [she made a bunch](https://raw.githubusercontent.com/pmotch/surgical-mask-clip/master/readme_assets/sewn_masks.jpg).
 
-Then I saw pictures on reddit showing what happens when someone wears a surgical mask for a long time -- it's not good. I wondered if I could create a clip that might make them more comfortable behind the ears, so I did.
+Then I saw pictures on reddit showing what happens when someone wears a surgical mask for a long time -- it's not good. I wondered if I could create a clip that could make wearing them more comfortable behind the ears, so I gave it a shot.
 
-I 3D printed a few different sized prototypes and she included them when she delivered the masks to the hospital. The person who accepted the donation liked the idea, took it to the hospital executive committee, and they said they wanted 200 more of the largest prototype I had.
+I 3D printed a few different sized prototypes and included them when she delivered the masks to the hospital. The person who accepted the donation liked the idea, took it to the hospital executive committee, and they said they wanted 200 more of the largest prototype I had!
 
 This project is that successful prototype.
 
@@ -80,31 +80,43 @@ This project is a perfect fit for the Prusa i3 MK3S, but many people will find a
 
 Note: other settings can be seen if you open the `.3ds` files in PrusaSlicer.
 
+# Mass printing right away
+
+If you want to set up a farm and print hundreds or thousands of these immediately without any modifications, do this:
+
+1. Get a Prusa i3 MK3S printer and set it up with a spool of PLA
+2. Put the `sugical_mask_clip-multiple_0.2mm_PLA_MK3S_8h42m.gcode` file on the SD card (your own or the one that came with the printer)
+3. Turn on the printer, select this file from the SD card and print!
+
+It's 8 hours and 42 mins for 18 clips. If you modify the .3ds file to use 15% infill the time drops to ~6 hours.
+
 # FAQ
 
 ## Is this limited to just the Prusa i3 MK3S 3D printer?
 
-This project focuses this printer, but I bet people can figure out how to use it on other printers. For sure the Blender and STL files aren't constrained to just this printer. The `Floor` object in the Blender file is the dimensions of the Prusa i3 MK3S, but that isn't important if you're just exporting the `Clip` to an STL - it's just useful when modeling on this specific printer. The G-code files are specific to the Prusa i3 MK3S, but you can take the `.3ds` files and generate your own G-code exports.
+This project is ready to go on the Prusa i3 MK3S printer, but one could take all the files (except for the G-code ones) and use them on any different printer.
+
+The `Floor` object in the Blender file is the dimensions of the Prusa i3 MK3S, but that isn't important if you're just exporting the `Clip` to an STL - it's just useful when modeling on this specific printer. The G-code files are specific to the Prusa i3 MK3S, but you can take the `.3ds` files and generate your own G-code exports.
 
 ## Why use git and GitHub to store these project files?
 
-Git / GitHub is something I know, and I noticed some people using git for version controlling 3D stuff. It's also a nice using GitHub to host the documentation and file. Works good enough. You can also find this project on PrusaPrinters print hosting site: TODO
+Git / GitHub is something I'm familiar with, and I noticed some people using git for version controlling 3D stuff. It's also nice using GitHub to host the documentation and files. Works good enough. You can also find this project on PrusaPrinters print hosting site: TODO
 
-## Why choose Creative Commons Attribution 4.0 International as the license
+## Why choose Creative Commons Attribution 4.0 International as the license?
 
-I'm used to software licenses, but after having a look, it seemed like CC licenses are common on 3D model things.
+I'm familiar with software licenses (MIT, Apache 2, GPL, etc), but after having a look, it seems like CC licenses are common on 3D model things.
 
-## Why didn't you use git-lfs
+## Why didn't you use git-lfs?
 
-I looked into it because it feels odd committing binary-ish like assets. Seemed like the files are small enough to not justify LFS. I'm willing to change that if someone says it's a good idea.
+I looked into it because it feels odd committing binary-ish like assets, but it seemed like the files are small enough to not justify LFS. I'm willing to change that if someone says it's a good idea.
 
-## Why did you choose Blender to model your 3D print
+## Why did you choose Blender to model your 3D print?
 
 Several reasons:
 - I'm new to 3D printing and had to pick something
 - Blender isn't perfect for 3D printing, but it's good enough
 - Blender is free (the CAD options looked seemed to be not free)
-- Blender can be used for a lot of other things, so that's what I went with
+- Blender can be used for a lot of other things, so learning that made sense
 
 ## Your 3D models aren't precise. Why?
 
