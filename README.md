@@ -100,7 +100,7 @@ The `Floor` object in the Blender file is the dimensions of the Prusa i3 MK3S, b
 
 ## Why use git and GitHub to store these project files?
 
-Git / GitHub is something I'm familiar with, and I noticed some people using git for version controlling 3D stuff. It's also nice using GitHub to host the documentation and files. Works good enough. You can also find this project on PrusaPrinters print hosting site: TODO
+Git / GitHub is something I'm familiar with, and I noticed some people using git for version controlling 3D stuff. It's also nice using GitHub to host the documentation and files. Works good enough. You can also find this project on PrusaPrinters print hosting site: https://www.prusaprinters.org/prints/27357-surgical-mask-clip
 
 ## Why choose Creative Commons Attribution 4.0 International as the license?
 
