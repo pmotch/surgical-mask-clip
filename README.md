@@ -90,6 +90,18 @@ If you want to set up a farm and print hundreds or thousands of these immediatel
 
 It's 8 hours and 42 mins for 18 clips. If you modify the .3ds file to use 15% infill the time drops to ~6 hours.
 
+# Feedback, changes, and contact
+
+Please share any feedback you have. Good and bad!
+
+If you're familiar with GitHub, issues work great.
+
+If you're on PrusaPrinters, [leave a comment in the project](https://www.prusaprinters.org/prints/27357-surgical-mask-clip/comments). If you have success with it, let me know here too!
+
+Feel free to directly contact me as well:
+- [dan.cundiff [at] gmail.com](mailto:dan.cundiff@gmail.com)
+- DM @ https://twitter.com/pmotch
+
 # FAQ
 
 ## Is this limited to just the Prusa i3 MK3S 3D printer?
