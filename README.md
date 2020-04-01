@@ -104,6 +104,13 @@ Feel free to directly contact me as well:
 - [dan.cundiff [at] gmail.com](mailto:dan.cundiff@gmail.com)
 - DM @ https://twitter.com/pmotch
 
+# List of places using it
+
+A list of known places using the clip (please message me if you use it or know of another place using it):
+
+- Deaconess - Evansville, IN - ~250 clips
+- Individuals nurses and other at risk individuals - ~25 clips
+
 # FAQ
 
 ## Is this limited to just the Prusa i3 MK3S 3D printer?
